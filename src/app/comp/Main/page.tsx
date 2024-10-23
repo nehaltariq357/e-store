@@ -1,6 +1,11 @@
 import React from 'react';
 import Image from 'next/image';
-
+import { HiOutlineDevicePhoneMobile } from "react-icons/hi2";
+import { BsSmartwatch } from "react-icons/bs";
+import { FiCamera } from "react-icons/fi";
+import { CiHeadphones } from "react-icons/ci";
+import { RiComputerLine } from "react-icons/ri";
+import { BiJoystick } from "react-icons/bi";
 const Main = () => {
   return (
     <main>
@@ -121,7 +126,7 @@ const Main = () => {
 </div>
 </div>
 {/* right side */}
-<div className='bg-offWhite md:flex md:justify-between h-[500px]'>
+<div className='bg-offWhite md:flex md:justify-between h-[480px]'>
 <Image
           
           src="/images/MacBook Pro 14mobile.png"
@@ -152,6 +157,114 @@ const Main = () => {
 </div>
 </div>
 
+{/* browse by category */}
+
+<div className='text-4xl ml-[50px] md:mt-16 flex  md:p-10 mt-10 '>
+  <p>Browse By Category</p> 
+  
+
+  </div>
+
+
+<div className='grid md:grid-cols-6 grid-cols-2  md:flex md:justify-evenly md:p-8 p-20 gap-10'>
+
+
+
+
+<div className='flex flex-col items-center text-5xl rounded-lg text-gray-500 bg-offWhite p-10'><HiOutlineDevicePhoneMobile className='mb-3'/><span className='text-sm'>Phones</span></div>
+
+
+
+
+
+<div className='flex flex-col items-center text-3xl rounded-lg text-gray-500 bg-offWhite p-8'><BsSmartwatch  className='mb-3'/><span className='text-sm text-center'>Smart Watches</span></div>
+<div className='flex flex-col items-center text-5xl rounded-lg text-gray-500 bg-offWhite p-10'><FiCamera  className='mb-3'/><span className='text-sm'>Cameras</span></div>
+<div className='flex flex-col items-center text-5xl rounded-lg text-gray-500 bg-offWhite p-10'><CiHeadphones  className='mb-3'/><span className='text-sm'>HeadPhones</span></div>
+<div className='flex flex-col items-center text-5xl rounded-lg text-gray-500 bg-offWhite p-10'><RiComputerLine  className='mb-3'/><span className='text-sm'>Computers</span></div>
+<div className='flex flex-col items-center text-5xl rounded-lg text-gray-500 bg-offWhite p-10'><BiJoystick  className='mb-3'/><span className='text-sm'>Gaming</span></div>
+</div>
+{/* new arrival */}
+<div className='grid md:grid-cols-4 grid-cols-2 md:p-8 p-20 gap-10'>
+  <div className='flex flex-col items-center text-5xl rounded-lg text-gray-500 bg-offWhite p-10'>
+    <Image
+    src="/images/Iphone 14 pro 1.png"
+    alt='pic'
+    width={100}
+   height={100}
+    />
+    {/* <span className='text-sm'>Phones</span>   // continue from here */}
+    
+  </div>
+
+  <div className='flex flex-col items-center text-3xl rounded-lg text-gray-500 bg-offWhite p-8'>
+  <Image
+    src="/images/camera.png"
+    alt='pic'
+    width={100}
+   height={100}
+    />
+    <span className='text-sm text-center'>Smart Watches</span>
+  </div>
+
+  <div className='flex flex-col items-center text-5xl rounded-lg text-gray-500 bg-offWhite p-10'>
+  <Image
+    src="/images/smartWatch.png"
+    alt='pic'
+    width={100}
+   height={100}
+    />
+    <span className='text-sm'>Cameras</span>
+  </div>
+
+  <div className='flex flex-col items-center text-5xl rounded-lg text-gray-500 bg-offWhite p-10'>
+  <Image
+    src="/images/airpodmobile.png"
+    alt='pic'
+    width={100}
+   height={100}
+    />
+    <span className='text-sm'>Headphones</span>
+  </div>
+
+  <div className='flex flex-col items-center text-5xl rounded-lg text-gray-500 bg-offWhite p-10'>
+  <Image
+    src="/images/watch6.png"
+    alt='pic'
+    width={100}
+   height={100}
+    />
+    <span className='text-sm'>Computers</span>
+  </div>
+
+  <div className='flex flex-col items-center text-5xl rounded-lg text-gray-500 bg-offWhite p-10'>
+  <Image
+    src="/images/zfold.png"
+    alt='pic'
+    width={100}
+   height={100}
+    />
+    <span className='text-sm'>Gaming</span>
+  </div>
+  <div className='flex flex-col items-center text-5xl rounded-lg text-gray-500 bg-offWhite p-10'>
+  <Image
+    src="/images/buds.png"
+    alt='pic'
+    width={100}
+   height={100}
+    />
+    <span className='text-sm'>Computers</span>
+  </div>
+
+  <div className='flex flex-col items-center text-5xl rounded-lg text-gray-500 bg-offWhite p-10'>
+  <Image
+    src="/images/ipad9.png"
+    alt='pic'
+    width={100}
+   height={100}
+    />
+    <span className='text-sm'>Gaming</span>
+  </div>
+</div>
 
 
 

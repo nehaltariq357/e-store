@@ -32,7 +32,7 @@ const Nav = () => {
 </ul>
 {/* mobile version */}
 
-<ul className={`${isopen ? "block" :"hidden"}  absolute top-16 left-0 h-36 w-full mt-4 bg-slate-400 md:hidden`}>
+<ul className={`${isopen ? "block" :"hidden"}  absolute top-16 left-0 h-36 w-full mt-4 bg-white md:hidden`}>
 <li className='mt-2 ml-4'>Home</li>
   <li className='mt-2 mb-2 ml-4'>About</li>
   <li className='mt-2 mb-2 ml-4'>Contact Us</li>
