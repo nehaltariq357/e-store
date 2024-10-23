@@ -9,7 +9,7 @@ import { RxHamburgerMenu } from "react-icons/rx";
 const Nav = () => {
   const [isopen,setisopen] = useState(false)
   return (
-    <div className='w-[100vw] flex justify-evenly h-20 items-center'>
+    <div className='w-[100vw] flex justify-evenly h-16 items-center fixed bg-white'>
      <p className='font-extrabold font-serif'>cyber</p>
      <div className='flex items-center text-slate-400 sm:ml-5 sm:mr-5'>
      <span className='bg-slate-100 p-4 rounded-l-lg'><FiSearch className=''/></span>

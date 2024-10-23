@@ -6,6 +6,11 @@ import { FiCamera } from "react-icons/fi";
 import { CiHeadphones } from "react-icons/ci";
 import { RiComputerLine } from "react-icons/ri";
 import { BiJoystick } from "react-icons/bi";
+import { FaTwitter } from "react-icons/fa";
+import { RiFacebookFill } from "react-icons/ri";
+import { FaTiktok } from "react-icons/fa6";
+import { AiFillInstagram } from "react-icons/ai";
+
 const Main = () => {
   return (
     <main>
@@ -13,7 +18,7 @@ const Main = () => {
         <div className='flex flex-col items-center md:items-start md:ml-32 mt-28 font-sans'>
           <p className='text-gray-400 font-bold text-2xl'>Pro.Beyond.</p>
 
-          {/* Wrap iPhone 14 and Pro in a flex container to align them side by side */}
+          
           <div className='flex items-center'>
             <p className='text-7xl font-thin w-fit'>IPhone 14</p>
             <span className='text-7xl font-semibold hidden md:flex'>Pro</span>
@@ -187,8 +192,6 @@ const Main = () => {
 <div className=''><ul className='flex md:ml-[40px] gap-16 ml-16 font-bold'><li className='hover:underline cursor-pointer'>New Arrival</li>
 <li className='hover:underline cursor-pointer'>Bestselller</li>
 <li className='hover:underline cursor-pointer'>Featured Product</li></ul></div>
-
-asa
 <div className='grid md:grid-cols-4 grid-cols-2 md:p-8 p-20 gap-10'>
   <div className='flex flex-col items-center text-5xl rounded-lg text-gray-500 bg-offWhite p-10'>
     <Image
@@ -447,7 +450,53 @@ asa
 
 </div>
 
+{/* new div */}
 
+<div className="bg-[url('/images/Banner2.jpg')] bg-cover flex flex-col text-white items-center justify-center h-96">
+<h1 className="text-white text-5xl">Big Summer <span className='font-semibold'>Sale</span></h1>
+<p className='text-gray-400'>Commodo fames vitea leo muuris in.Eu consequat.</p>
+<button className='md:px-10 md:py-3 p-2 rounded-md mt-6 text-sm bg-transparent border border-r-2 text-white px-10'>
+           Shop Now
+          </button>
+</div>
+
+{/* footer */}
+<footer className="text-white bg-black">
+  <div className="grid md:grid-cols-3 grid-cols-1 md:h-[500px] h-[900px] p-20 justify-items-center md:justify-items-start">
+    <div className="space-y-5 text-center md:text-left">
+      <p className="font-bold text-2xl">cyber</p>
+      <p className="w-[80%] mx-auto md:mx-0">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa voluptatibus aperiam laudantium doloremque.
+      </p>
+    </div>
+    <div className="space-y-5 text-center md:text-left">
+      <p className="font-bold text-2xl">services</p>
+      <p>Bonus program</p>
+      <p>Gifts card</p>
+      <p>Credit and payement</p>
+      <p>Service contract</p>
+      <p>Non-cash account</p>
+      <p>Payement</p>
+    </div>
+    <div className="space-y-5 text-center md:text-left">
+      <p className="font-bold text-2xl">Assistance to the buyer</p>
+      <p>Find an order</p>
+      <p>Terms of delivery</p>
+      <p>Exchange and return of goods</p>
+      <p>Gurantee</p>
+      <p>Frequently asked questions</p>
+      <p>Terms of use of the site</p>
+    </div>
+    <div className="mt-10">
+      <ul className="flex justify-center md:justify-start space-x-10">
+        <li><FaTwitter /></li>
+        <li><RiFacebookFill /></li>
+        <li><FaTiktok /></li>
+        <li><AiFillInstagram /></li>
+      </ul>
+    </div>
+  </div>
+</footer>
 
     </main>
   );
