@@ -184,6 +184,11 @@ const Main = () => {
 <div className='flex flex-col items-center text-5xl rounded-lg text-gray-500 bg-offWhite p-10'><BiJoystick  className='mb-3'/><span className='text-sm'>Gaming</span></div>
 </div>
 {/* new arrival */}
+<div className=''><ul className='flex md:ml-[40px] gap-16 ml-16 font-bold'><li className='hover:underline cursor-pointer'>New Arrival</li>
+<li className='hover:underline cursor-pointer'>Bestselller</li>
+<li className='hover:underline cursor-pointer'>Featured Product</li></ul></div>
+
+asa
 <div className='grid md:grid-cols-4 grid-cols-2 md:p-8 p-20 gap-10'>
   <div className='flex flex-col items-center text-5xl rounded-lg text-gray-500 bg-offWhite p-10'>
     <Image
@@ -192,7 +197,12 @@ const Main = () => {
     width={100}
    height={100}
     />
-    {/* <span className='text-sm'>Phones</span>   // continue from here */}
+   <span className='text-sm text-center font-bold text-black'>Apple iphone 14 pro Max</span> 
+    <span className='text-sm text-center font-bold text-black'>128GB Deep Purple</span> 
+    <span className='text-3xl font-bold text-black text-center'>$900</span> 
+    <button className='md:px-10 md:py-3 p-2 rounded-md mt-6 text-sm bg-black text-white '>
+           Shop Now
+          </button>
     
   </div>
 
@@ -203,7 +213,12 @@ const Main = () => {
     width={100}
    height={100}
     />
-    <span className='text-sm text-center'>Smart Watches</span>
+    <span className='text-sm text-center font-bold text-black'>Apple iphone 14 pro Max</span> 
+    <span className='text-sm text-center font-bold text-black'>128GB Deep Purple</span> 
+    <span className='text-3xl font-bold text-black text-center'>$900</span> 
+    <button className='md:px-10 md:py-3 p-2 rounded-md mt-6 text-sm bg-black text-white '>
+           Shop Now
+          </button>
   </div>
 
   <div className='flex flex-col items-center text-5xl rounded-lg text-gray-500 bg-offWhite p-10'>
@@ -213,7 +228,12 @@ const Main = () => {
     width={100}
    height={100}
     />
-    <span className='text-sm'>Cameras</span>
+   <span className='text-sm text-center font-bold text-black'>Apple iphone 14 pro Max</span> 
+    <span className='text-sm text-center font-bold text-black'>128GB Deep Purple</span> 
+    <span className='text-3xl font-bold text-black text-center'>$900</span> 
+    <button className='md:px-10 md:py-3 p-2 rounded-md mt-6 text-sm bg-black text-white '>
+           Shop Now
+          </button>
   </div>
 
   <div className='flex flex-col items-center text-5xl rounded-lg text-gray-500 bg-offWhite p-10'>
@@ -223,7 +243,12 @@ const Main = () => {
     width={100}
    height={100}
     />
-    <span className='text-sm'>Headphones</span>
+    <span className='text-sm text-center font-bold text-black'>Apple iphone 14 pro Max</span> 
+    <span className='text-sm text-center font-bold text-black'>128GB Deep Purple</span> 
+    <span className='text-3xl font-bold text-black text-center'>$900</span> 
+    <button className='md:px-10 md:py-3 p-2 rounded-md mt-6 text-sm bg-black text-white '>
+           Shop Now
+          </button>
   </div>
 
   <div className='flex flex-col items-center text-5xl rounded-lg text-gray-500 bg-offWhite p-10'>
@@ -233,7 +258,12 @@ const Main = () => {
     width={100}
    height={100}
     />
-    <span className='text-sm'>Computers</span>
+    <span className='text-sm text-center font-bold text-black'>Apple iphone 14 pro Max</span> 
+    <span className='text-sm text-center font-bold text-black'>128GB Deep Purple</span> 
+    <span className='text-3xl font-bold text-black text-center'>$900</span> 
+    <button className='md:px-10 md:py-3 p-2 rounded-md mt-6 text-sm bg-black text-white '>
+           Shop Now
+          </button>
   </div>
 
   <div className='flex flex-col items-center text-5xl rounded-lg text-gray-500 bg-offWhite p-10'>
@@ -243,7 +273,12 @@ const Main = () => {
     width={100}
    height={100}
     />
-    <span className='text-sm'>Gaming</span>
+    <span className='text-sm text-center font-bold text-black'>Apple iphone 14 pro Max</span> 
+    <span className='text-sm text-center font-bold text-black'>128GB Deep Purple</span> 
+    <span className='text-3xl font-bold text-black text-center'>$900</span> 
+    <button className='md:px-10 md:py-3 p-2 rounded-md mt-6 text-sm bg-black text-white '>
+           Shop Now
+          </button>
   </div>
   <div className='flex flex-col items-center text-5xl rounded-lg text-gray-500 bg-offWhite p-10'>
   <Image
@@ -252,7 +287,12 @@ const Main = () => {
     width={100}
    height={100}
     />
-    <span className='text-sm'>Computers</span>
+   <span className='text-sm text-center font-bold text-black'>Apple iphone 14 pro Max</span> 
+    <span className='text-sm text-center font-bold text-black'>128GB Deep Purple</span> 
+    <span className='text-3xl font-bold text-black text-center'>$900</span> 
+    <button className='md:px-10 md:py-3 p-2 rounded-md mt-6 text-sm bg-black text-white '>
+           Shop Now
+          </button>
   </div>
 
   <div className='flex flex-col items-center text-5xl rounded-lg text-gray-500 bg-offWhite p-10'>
@@ -262,10 +302,150 @@ const Main = () => {
     width={100}
    height={100}
     />
-    <span className='text-sm'>Gaming</span>
+    <span className='text-sm text-center font-bold text-black'>Apple iphone 14 pro Max</span> 
+    <span className='text-sm text-center font-bold text-black'>128GB Deep Purple</span> 
+    <span className='text-3xl font-bold text-black text-center'>$900</span> 
+    <button className='md:px-10 md:py-3 p-2 rounded-md mt-6 text-sm bg-black text-white '>
+           Shop Now
+          </button>
   </div>
 </div>
 
+{/* new div */}
+<div className='grid md:grid-cols-4 grid-cols-1 md:p-8 p-20'>
+  <div className='flex flex-col items-center text-5xl rounded-lg text-gray-500 p-10'>
+    <Image
+    src="/images/Group 1.png"
+    alt='pic'
+    width={300}
+   height={100}
+    />
+   <span className='text-sm text-center font-bold text-black'>Apple iphone 14 pro Max</span> 
+    <span className='text-sm text-center font-bold text-black'>128GB Deep Purple</span> 
+    <span className='text-3xl font-bold text-black text-center'>$900</span> 
+    <div className='flex-grow'></div>
+    <button className='md:px-10 md:py-3 p-2 rounded-md mt-6 text-sm bg-black text-white '>
+           Shop Now
+          </button>
+    
+  </div>
+
+  <div className='flex flex-col items-center text-3xl rounded-lg text-gray-500 bg-stone-100 p-8'>
+  <Image
+    src="/images/image 64.png"
+    alt='pic'
+    width={300}
+   height={100}
+    />
+    <span className='text-sm text-center font-bold text-black'>Apple iphone 14 pro Max</span> 
+    <span className='text-sm text-center font-bold text-black'>128GB Deep Purple</span> 
+    <span className='text-3xl font-bold text-black text-center'>$900</span> 
+    <div className='flex-grow'></div>
+    <button className='md:px-10 md:py-3 p-2 rounded-md mt-6 text-sm bg-black text-white '>
+           Shop Now
+          </button>
+  </div>
+
+  <div className='flex flex-col items-center text-5xl rounded-lg text-gray-500 bg-offWhite p-10'>
+  <Image
+    src="/images/image 41.png"
+    alt='pic'
+    width={300}
+   height={100}
+    />
+   <span className='text-sm text-center font-bold text-black'>Apple iphone 14 pro Max</span> 
+    <span className='text-sm text-center font-bold text-black'>128GB Deep Purple</span> 
+    <span className='text-3xl font-bold text-black text-center'>$900</span> 
+    <div className='flex-grow'></div>
+    <button className='md:px-10 md:py-3 p-2 rounded-md mt-6 text-sm bg-black text-white '>
+           Shop Now
+          </button>
+  </div>
+
+  <div className='flex flex-col items-center text-5xl rounded-lg bg-customColor p-10'>
+  <Image
+    src="/images/MacBook Pro 14mobile.png"
+    alt='pic'
+    width={300}
+   height={100}
+    />
+    <span className='text-sm text-center font-bold text-white'>Apple iphone 14 pro Max</span> 
+    <span className='text-sm text-center font-bold text-white'>128GB Deep Purple</span> 
+    <span className='text-3xl font-bold text-white'>$900</span> 
+    <div className='flex-grow'></div>
+    <button className='md:px-10 md:py-3 p-2 rounded-md mt-6 text-sm bg-black text-white '>
+           Shop Now
+          </button>
+  </div>
+</div>
+
+{/* new div */}
+<div className='text-4xl ml-[50px] md:mt-16 flex  md:p-10 mt-10 '>
+  <p>Discounts up to-50%</p> 
+  </div>
+<div className='grid md:grid-cols-4 grid-cols-2 md:p-8 p-20 gap-10'>
+  <div className='flex flex-col items-center text-5xl rounded-lg text-gray-500 bg-offWhite p-10'>
+    <Image
+    src="/images/Iphone 14 pro 1.png"
+    alt='pic'
+    width={100}
+   height={100}
+    />
+   <span className='text-sm text-center font-bold text-black'>Apple iphone 14 pro Max</span> 
+    <span className='text-sm text-center font-bold text-black'>128GB Deep Purple</span> 
+    <span className='text-3xl font-bold text-black text-center'>$900</span> 
+    <button className='md:px-10 md:py-3 p-2 rounded-md mt-6 text-sm bg-black text-white '>
+           Shop Now
+          </button>
+    
+  </div>
+
+  <div className='flex flex-col items-center text-3xl rounded-lg text-gray-500 bg-offWhite p-8'>
+  <Image
+    src="/images/camera.png"
+    alt='pic'
+    width={100}
+   height={100}
+    />
+    <span className='text-sm text-center font-bold text-black'>Apple iphone 14 pro Max</span> 
+    <span className='text-sm text-center font-bold text-black'>128GB Deep Purple</span> 
+    <span className='text-3xl font-bold text-black text-center'>$900</span> 
+    <button className='md:px-10 md:py-3 p-2 rounded-md mt-6 text-sm bg-black text-white '>
+           Shop Now
+          </button>
+  </div>
+
+  <div className='flex flex-col items-center text-5xl rounded-lg text-gray-500 bg-offWhite p-10'>
+  <Image
+    src="/images/smartWatch.png"
+    alt='pic'
+    width={100}
+   height={100}
+    />
+   <span className='text-sm text-center font-bold text-black'>Apple iphone 14 pro Max</span> 
+    <span className='text-sm text-center font-bold text-black'>128GB Deep Purple</span> 
+    <span className='text-3xl font-bold text-black text-center'>$900</span> 
+    <button className='md:px-10 md:py-3 p-2 rounded-md mt-6 text-sm bg-black text-white '>
+           Shop Now
+          </button>
+  </div>
+
+  <div className='flex flex-col items-center text-5xl rounded-lg text-gray-500 bg-offWhite p-10'>
+  <Image
+    src="/images/airpodmobile.png"
+    alt='pic'
+    width={100}
+   height={100}
+    />
+    <span className='text-sm text-center font-bold text-black'>Apple iphone 14 pro Max</span> 
+    <span className='text-sm text-center font-bold text-black'>128GB Deep Purple</span> 
+    <span className='text-3xl font-bold text-black text-center'>$900</span> 
+    <button className='md:px-10 md:py-3 p-2 rounded-md mt-6 text-sm bg-black text-white '>
+           Shop Now
+          </button>
+  </div>
+
+</div>
 
 
 
