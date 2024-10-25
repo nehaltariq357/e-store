@@ -462,7 +462,7 @@ const Main = () => {
 
 {/* footer */}
 <footer className="text-white bg-black">
-  <div className="grid md:grid-cols-3 grid-cols-1 md:h-[500px] h-[930px] p-20 justify-items-center md:justify-items-start">
+  <div className="grid md:grid-cols-3 grid-cols-1 md:h-[500px] h-[1200px] p-20 justify-items-center md:justify-items-start">
     <div className="space-y-5 text-center md:text-left">
       <p className="font-bold text-2xl">cyber</p>
       <p className="w-[80%] mx-auto md:mx-0">
