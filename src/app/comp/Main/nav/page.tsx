@@ -11,9 +11,9 @@ const Nav = () => {
   return (
     <div className='w-[100vw] flex justify-evenly h-16 items-center fixed bg-white'>
      <p className='font-extrabold font-serif'>cyber</p>
-     <div className='flex items-center text-slate-400 sm:ml-5 sm:mr-5'>
-     <span className='bg-slate-100 p-4 rounded-l-lg'><FiSearch className=''/></span>
-     <input type="text" placeholder='search' className='bg-slate-100 p-3 w-80 rounded-r-lg '/>
+     <div className='flex items-center text-slate-400 sm:ml-5 sm:mr-5 w-auto'>
+     <span className='bg-slate-100 p-4 rounded-l-lg hidden md:block'><FiSearch className=''/></span>
+     <input type="text" placeholder='search' className='bg-slate-100 p-3 w-80 rounded-r-lg hidden md:block '/>
      </div>
 <div className='md:hidden'><button  onClick={()=>setisopen(!isopen)}><RxHamburgerMenu /></button></div>
 {/* desktop version */}
@@ -32,11 +32,16 @@ const Nav = () => {
 </ul>
 {/* mobile version */}
 
-<ul className={`${isopen ? "block" :"hidden"}  absolute top-16 left-0 h-36 w-full mt-4 bg-white md:hidden`}>
+<ul className={`${isopen ? "block" :"hidden"}  absolute top-16 left-0 h-52 w-full mt-4 bg-white md:hidden`}>
 <li className='mt-2 ml-4'>Home</li>
   <li className='mt-2 mb-2 ml-4'>About</li>
   <li className='mt-2 mb-2 ml-4'>Contact Us</li>
   <li className='mt-2 mb-2 ml-4'>Blog</li>
+  <div className='flex items-center text-slate-400 sm:ml-5 sm:mr-5 justify-center'>
+     <span className='bg-slate-100 p-4 rounded-l-lg '><FiSearch className=''/></span>
+     <input type="text" placeholder='search' className='bg-slate-100 p-3 w-[50%] rounded-r-lg  '/>
+     </div>
+  
 </ul>
 
 <ul className={`${isopen ? "block" :"hidden"} md:hidden absolute top-24 right-5 flex flex-col   `}>

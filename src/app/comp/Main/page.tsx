@@ -141,7 +141,7 @@ const Main = () => {
           className='md:hidden mx-auto'
           />
   <div className='md:flex md:items-center'>
-  <div className='md:ml-14 '>  
+  <div className='md:ml-14 space-y-5'>  
  <div className='flex justify-center w-full'> <p className='md:text-6xl md:font-thin text-6xl'>Macbook</p>
  <p className='md:text-6xl font-semibold text-6xl'>AIR</p></div>
   <p className='md:w-96 w-96 mx-auto'>The new 15-inch Macbook Air makes room for more of what you love with a spacious liquid Retina display.</p>
@@ -192,7 +192,7 @@ const Main = () => {
 <div className=''><ul className='flex md:ml-[40px] gap-16 ml-16 font-bold'><li className='hover:underline cursor-pointer'>New Arrival</li>
 <li className='hover:underline cursor-pointer'>Bestselller</li>
 <li className='hover:underline cursor-pointer'>Featured Product</li></ul></div>
-<div className='grid md:grid-cols-4 grid-cols-2 md:p-8 p-20 gap-10'>
+<div className='grid md:grid-cols-4 grid-cols-1 md:p-8 p-20 gap-10'>
   <div className='flex flex-col items-center text-5xl rounded-lg text-gray-500 bg-offWhite p-10'>
     <Image
     src="/images/Iphone 14 pro 1.png"
@@ -386,7 +386,7 @@ const Main = () => {
 <div className='text-4xl ml-[50px] md:mt-16 flex  md:p-10 mt-10 '>
   <p>Discounts up to-50%</p> 
   </div>
-<div className='grid md:grid-cols-4 grid-cols-2 md:p-8 p-20 gap-10'>
+<div className='grid md:grid-cols-4 grid-cols-1 md:p-8 p-20 gap-10'>
   <div className='flex flex-col items-center text-5xl rounded-lg text-gray-500 bg-offWhite p-10'>
     <Image
     src="/images/Iphone 14 pro 1.png"
@@ -462,7 +462,7 @@ const Main = () => {
 
 {/* footer */}
 <footer className="text-white bg-black">
-  <div className="grid md:grid-cols-3 grid-cols-1 md:h-[500px] h-[900px] p-20 justify-items-center md:justify-items-start">
+  <div className="grid md:grid-cols-3 grid-cols-1 md:h-[500px] h-[930px] p-20 justify-items-center md:justify-items-start">
     <div className="space-y-5 text-center md:text-left">
       <p className="font-bold text-2xl">cyber</p>
       <p className="w-[80%] mx-auto md:mx-0">
