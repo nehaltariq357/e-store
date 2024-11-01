@@ -318,7 +318,7 @@ const Main = () => {
             Shop Now
           </button>
         </div>
-
+{/*  /// */}
         <div className="flex flex-col items-center text-5xl rounded-lg text-gray-500 bg-offWhite p-10">
           <Image src="/images/zfold.png" alt="pic" width={100} height={100} />
           <span className="text-sm text-center font-bold text-black">
